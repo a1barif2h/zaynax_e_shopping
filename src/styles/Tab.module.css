@@ -1,0 +1,27 @@
+.nav_container{
+    padding-top: 25px;
+}
+
+.nav_link{
+    color: #B8B5BC;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.nav_link:hover,
+.nav_link:focus,
+.active{
+    color: #342D41;
+    text-decoration: none;
+}
+
+.hr_bottom{
+    border: 0;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+@media (max-width: 767px) {
+    .logo{
+        width: 108px;
+    }
+}
