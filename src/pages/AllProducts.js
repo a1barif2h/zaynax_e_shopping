@@ -1,13 +1,18 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import SearchNavbar from '../components/SearchNavbar';
+import Sidebar from '../components/Sidebar';
 
 const AllProducts = () => {
     return (
         <>
             <Container>
                 <SearchNavbar />
-                <h1>this is all products</h1>
+                <Row>
+                    <Col md={4}>
+                        <Sidebar />
+                    </Col>
+                </Row>
             </Container>
             
         </>

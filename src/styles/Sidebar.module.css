@@ -1,0 +1,364 @@
+.card_container{
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.filter_section,
+.category_section,
+.brand_section,
+.country_section,
+.size_section,
+.color_section,
+.discount_section,
+.price_section,
+.rating_section,
+.fabric_section,
+.pattern_section,
+.service_section,
+.clothing_section,
+.men_trend_section{
+    padding: 8px;
+    border-bottom: 1px dashed #999999;
+}
+
+.fit_type_section{
+    padding: 8px;
+}
+
+.title{
+    color: #585B5B;
+    font-size: 20px;
+}
+
+/* FILTER SECTION */
+
+.out_of_stock,
+.filter_size{
+    width: 50%;
+    height: 30px;
+    border: 1.5px solid #ECECEC;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.filter_size{
+    margin-top: 5px;
+    width: 40%;
+}
+
+.filter_name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #9A9A99;
+    
+}
+
+.filter_cancel{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9A9A99;
+    margin-top: 3px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.cancel{
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #9A9A99;
+}
+
+.clear_all{
+    width: 35%;
+    height: 30px;
+    border: 1.5px solid #ECECEC;
+    border-radius: 25px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #E5FFF2;
+    color: #66D074;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* CATEGORY SECTION */
+
+.category_title_section,
+.brand_title_section,
+.country_title_section,
+.size_title_section,
+.color_title_section,
+.discount_title_section,
+.price_title_section,
+.fabric_title_section,
+.pattern_title_section,
+.service_title_section,
+.clothing_title_section,
+.men_trend_title_section,
+.fit_type_title_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.category_icon,
+.brand_icon,
+.country_icon,
+.size_icon,
+.color_icon,
+.discount_icon,
+.price_icon,
+.fabric_icon,
+.pattern_icon,
+.service_icon,
+.clothing_icon,
+.men_trend_icon,
+.fit_type_icon{
+    font-size: 32px;
+    color: #585B5B;
+    margin-top: -5px;
+}
+
+.category_sub_title{
+    color: #585B5B;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.category_sub_subject{
+    width: 75%;
+    text-align: center;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.last_child{
+    margin-top: -15px;
+    color: #797c7c;
+}
+
+/* BRAND AND COUNTRY SECTION */
+
+.search_box{
+    position: relative;
+    background: #FAFAFA;
+    width: 100%;
+}
+
+.search{
+    position: absolute;
+    right: 32px;
+    color: #B5B5B5;
+}
+
+.brand_item,
+.country_item,
+.fabric_item,
+.pattern_item
+{
+    padding: 15px;
+    max-height: 356px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+
+.country_item{
+    max-height: 168px;
+}
+
+.brand_item::-webkit-scrollbar,
+.country_item::-webkit-scrollbar,
+.fabric_item::-webkit-scrollbar,
+.pattern_item::-webkit-scrollbar{
+    width: 10px;
+}
+
+.brand_item::-webkit-scrollbar-track,
+.country_item::-webkit-scrollbar-track,
+.fabric_item::-webkit-scrollbar-track,
+.pattern_item::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.brand_item::-webkit-scrollbar-thumb,
+.country_item::-webkit-scrollbar-thumb,
+.fabric_item::-webkit-scrollbar-thumb,
+.pattern_item::-webkit-scrollbar-thumb {
+    background: #00B55B; 
+    border-radius: 10px;
+}
+
+.brand_item::-webkit-scrollbar-thumb:hover,
+.country_item::-webkit-scrollbar-thumb:hover,
+.fabric_item::-webkit-scrollbar-thumb:hover,
+.pattern_item::-webkit-scrollbar-thumb:hover {
+    background: #038846; 
+}
+
+.brand_list,
+.country_list,
+.discount_list,
+.fabric_list,
+.pattern_list,
+.service_list{
+    margin: 5px 0 5px 0;
+    color: #818D94;
+}
+
+.brand_more,
+.country_more,
+.fabric_more,
+.pattern_more{
+    font-size: 20px;
+    font-weight: 700;
+    color: #00B55B;
+    cursor: pointer;
+}
+
+/* SIZE SECTION */
+
+.size_items,
+.color_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.size_list,
+.size_list_XXL,
+.color_list{
+    width: 32px;
+    height: 32px;
+    border: 1.5px solid #D4D4D4;
+    cursor: pointer;
+}
+
+.size_list_XXL{
+    width: 38px;
+}
+
+.size_list_value,
+.size_list_value_XXL{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #585B5B;
+}
+
+.color_list{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.color_list_value,
+.color_list_value1,
+.color_list_value2,
+.color_list_value3,
+.color_list_value4,
+.color_list_value5{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+}
+
+.color_list_value1{
+    background-color: #6F3E18;
+}
+
+.color_list_value2{
+    background-color: #D4BE8D;
+}
+
+.color_list_value3{
+    background-color: #838383;
+}
+
+.color_list_value4{
+    background-color: #FFFFFF;
+    border: 1px solid #D4D4D4;
+}
+
+.color_list_value5{
+    background-color: #0F73AD;
+}
+
+/* DISCOUNT SECTION */
+
+.discount_item,
+.service_item{
+    padding: 15px;
+    max-height: 356px;
+}
+
+/* PRICE SECTION */
+
+.price_items_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price_list_min,
+.price_list_max{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #585B5B;
+    margin-right: 8px;
+    cursor: pointer;
+    border: 1.5px solid #585B5B;
+}
+
+.price_list_icon_container{
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.price_list_icon_decor,
+.price_list_icon_main_decor{
+    width: 15px;
+    height: 15px;
+    background-color: #00B55B;
+    position: relative;
+}
+
+.price_list_icon_main_decor{
+    width: 30px;
+    height: 30px;
+    background-color: #00B55B;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.price_icon{
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.star_container{
+    font-size: 20px;
+    margin-top: 0;
+    color: #00B55B;
+}
+
+.star{
+    margin-top: -15px;
+}
