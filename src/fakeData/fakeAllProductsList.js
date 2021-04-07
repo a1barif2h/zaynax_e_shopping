@@ -1,4 +1,4 @@
-export const allProductsList = [
+export const fakeAllProductsList = [
     {
         id: 1,
         title: "Multicolor Cotton long",
@@ -10,7 +10,7 @@ export const allProductsList = [
     },
     {
         id: 2,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -19,7 +19,7 @@ export const allProductsList = [
     },
     {
         id: 3,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -28,7 +28,7 @@ export const allProductsList = [
     },
     {
         id: 4,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -46,7 +46,7 @@ export const allProductsList = [
     },
     {
         id: 6,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -55,7 +55,7 @@ export const allProductsList = [
     },
     {
         id: 7,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -64,7 +64,7 @@ export const allProductsList = [
     },
     {
         id: 8,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -82,7 +82,7 @@ export const allProductsList = [
     },
     {
         id: 10,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -91,7 +91,7 @@ export const allProductsList = [
     },
     {
         id: 11,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -100,7 +100,7 @@ export const allProductsList = [
     },
     {
         id: 12,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -118,7 +118,7 @@ export const allProductsList = [
     },
     {
         id: 14,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -127,7 +127,7 @@ export const allProductsList = [
     },
     {
         id: 15,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -136,7 +136,7 @@ export const allProductsList = [
     },
     {
         id: 16,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -154,7 +154,7 @@ export const allProductsList = [
     },
     {
         id: 18,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -163,7 +163,7 @@ export const allProductsList = [
     },
     {
         id: 19,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -172,7 +172,7 @@ export const allProductsList = [
     },
     {
         id: 20,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -190,7 +190,7 @@ export const allProductsList = [
     },
     {
         id: 22,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -199,7 +199,7 @@ export const allProductsList = [
     },
     {
         id: 23,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -208,7 +208,7 @@ export const allProductsList = [
     },
     {
         id: 24,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -226,7 +226,7 @@ export const allProductsList = [
     },
     {
         id: 26,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -235,7 +235,7 @@ export const allProductsList = [
     },
     {
         id: 27,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -244,7 +244,7 @@ export const allProductsList = [
     },
     {
         id: 28,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -262,7 +262,7 @@ export const allProductsList = [
     },
     {
         id: 30,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -271,7 +271,7 @@ export const allProductsList = [
     },
     {
         id: 31,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -280,7 +280,7 @@ export const allProductsList = [
     },
     {
         id: 32,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -298,7 +298,7 @@ export const allProductsList = [
     },
     {
         id: 34,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -307,7 +307,7 @@ export const allProductsList = [
     },
     {
         id: 35,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -316,7 +316,7 @@ export const allProductsList = [
     },
     {
         id: 36,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -334,7 +334,7 @@ export const allProductsList = [
     },
     {
         id: 38,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -343,7 +343,7 @@ export const allProductsList = [
     },
     {
         id: 39,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -352,7 +352,7 @@ export const allProductsList = [
     },
     {
         id: 40,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -370,7 +370,7 @@ export const allProductsList = [
     },
     {
         id: 42,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -379,7 +379,7 @@ export const allProductsList = [
     },
     {
         id: 43,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -388,7 +388,7 @@ export const allProductsList = [
     },
     {
         id: 44,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -406,7 +406,7 @@ export const allProductsList = [
     },
     {
         id: 46,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -415,7 +415,7 @@ export const allProductsList = [
     },
     {
         id: 47,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -424,7 +424,7 @@ export const allProductsList = [
     },
     {
         id: 48,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -442,7 +442,7 @@ export const allProductsList = [
     },
     {
         id: 50,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -451,7 +451,7 @@ export const allProductsList = [
     },
     {
         id: 51,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -460,7 +460,7 @@ export const allProductsList = [
     },
     {
         id: 52,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -478,7 +478,7 @@ export const allProductsList = [
     },
     {
         id: 54,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -487,7 +487,7 @@ export const allProductsList = [
     },
     {
         id: 55,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -496,7 +496,7 @@ export const allProductsList = [
     },
     {
         id: 56,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -514,7 +514,7 @@ export const allProductsList = [
     },
     {
         id: 58,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -523,16 +523,7 @@ export const allProductsList = [
     },
     {
         id: 59,
-        title: "Bili Online Cozy 12 Liter Backpack",
-        category: "Travel Bag",
-        currentPrice: "2,850",
-        previousPrice: "5,555",
-        discountRate: "34%",
-        img: "https://i.ibb.co/hZ5kTL9/asset-2.png"
-    },
-    {
-        id: 59,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -550,7 +541,7 @@ export const allProductsList = [
     },
     {
         id: 61,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -559,7 +550,7 @@ export const allProductsList = [
     },
     {
         id: 62,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -568,7 +559,7 @@ export const allProductsList = [
     },
     {
         id: 63,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -586,7 +577,7 @@ export const allProductsList = [
     },
     {
         id: 65,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -595,7 +586,7 @@ export const allProductsList = [
     },
     {
         id: 66,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
@@ -604,7 +595,7 @@ export const allProductsList = [
     },
     {
         id: 67,
-        title: "Leather Watches Men Hands Clock Fashion Style",
+        title: "Leather Watches Men",
         category: "Man Watch",
         currentPrice: "22,850",
         previousPrice: "55,555",
@@ -622,7 +613,7 @@ export const allProductsList = [
     },
     {
         id: 69,
-        title: "UiiSii HM13 In-Ear Dynamic Headset",
+        title: "UiiSii HM13 In-Ear",
         category: "Microphone",
         currentPrice: "5,555",
         previousPrice: "7,850",
@@ -631,7 +622,7 @@ export const allProductsList = [
     },
     {
         id: 70,
-        title: "Bili Online Cozy 12 Liter Backpack",
+        title: "Bili 12 Liter Backpack",
         category: "Travel Bag",
         currentPrice: "2,850",
         previousPrice: "5,555",
