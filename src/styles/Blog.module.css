@@ -63,3 +63,9 @@
 .message_icon{
     font-size: 22px;
 }
+
+@media (max-width: 768px) {
+    .blog_header{
+        width: 100%;
+    }
+}

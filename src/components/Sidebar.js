@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Form, FormControl, Row } from 'react-bootstrap';
+import { Card, Col, Form, FormControl, Navbar, Row } from 'react-bootstrap';
 import { FaSistrix, FaTimes } from 'react-icons/fa';
 import { BiChevronDown, BiChevronRight } from 'react-icons/bi';
 import {AiFillStar} from "react-icons/ai";
@@ -21,7 +21,10 @@ const Sidebar = () => {
     const twoStar = <div className={styles.star_container}><AiFillStar className={styles.star} /><AiFillStar className={styles.star} /></div>;
     const oneStar = <div className={styles.star_container}><AiFillStar className={styles.star} /></div>;
     return (
-        <div>
+        <>
+            <Navbar bg="light" expand="lg">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
             <Card className={styles.card_container}>
                 <div className={styles.filter_section}>
                     <h4 className={styles.title}>Filters</h4>
@@ -359,7 +362,9 @@ const Sidebar = () => {
                     </div>
                 </div>
             </Card>
-        </div>
+            </Navbar.Collapse>
+            </Navbar>
+        </>
     );
 };
 

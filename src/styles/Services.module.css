@@ -29,3 +29,35 @@
     width: 83%;
     margin: -15px auto;
 }
+
+@media (max-width: 768px) {
+    .service_container{
+        display: block;
+    }
+
+    .card {
+        display: flex;
+        width: 100%;
+        height: 120px;
+        margin: 10px 0 10px 0;
+    }
+
+    .card_img{
+        width: 30%;
+        height: auto;
+    }
+
+    .card_content{
+        width: 70%;
+        text-align: start;
+        margin-top: 10px;
+    }
+
+    .title{
+        margin-top: 0;
+    }
+
+    .c_img{
+        width: 90%;
+    }
+}

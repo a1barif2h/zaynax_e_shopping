@@ -1,0 +1,43 @@
+.home_container{
+    width: 100%;
+}
+
+.home_content{
+    width: 75%;
+    margin: 10px auto;
+    margin-bottom: -137px;
+}
+
+.welcome{
+    font-size: 28px;
+    font-weight: 600;
+    color: #8C8C8C;
+}
+
+.company__name{
+    color: #FF0025;
+}
+
+.home_img{
+    margin: 0 auto;
+    width: 35%;
+}
+
+.main_img{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .home_content{
+        width: 100%;
+        margin-bottom: -80px;
+    }
+
+    .welcome{
+        font-size: 18px;
+    }
+
+    .home_img{
+        width: 100%;
+    }
+}

@@ -32,3 +32,9 @@
     bottom: 40px;
     z-index: -1111111;
 }
+
+@media (max-width: 768px) {
+    .slider_container{
+        overflow: hidden;
+    }
+}

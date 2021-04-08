@@ -7,7 +7,7 @@ const ServiceCard = ({item}) => {
         <>
             <div className={styles.card}>
                 <div className={styles.card_img}>
-                    <img src={img} alt=""/>
+                    <img className={styles.c_img} src={img} alt=""/>
                 </div>
                 <div className={styles.card_content}>
                     <p className={styles.title}>

@@ -44,3 +44,14 @@
     font-size: 14px;
     margin-top: -12px;
 }
+
+@media (max-width: 768px) {
+    .card_container{
+        width: 100%;
+    }
+
+    .product_image{
+        width: 70%;
+        height: 220px;
+    }
+}

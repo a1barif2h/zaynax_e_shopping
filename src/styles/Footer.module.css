@@ -7,6 +7,7 @@
 
 .footer_section{
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
 .social_section{
@@ -54,15 +55,17 @@
     outline: 0;
     width: 100%;
     border-bottom: 1px solid #2B2B2B;
-    position: relative;
     color: #848588;
+}
+
+.sub_input{
+    position: relative !important;
 }
 
 .input_icon{
     font-size: 28px;
     position: absolute;
-    right: 72px;
-    bottom: 115px;
+    right: 12%;
 }
 
 .option_container{
@@ -99,4 +102,19 @@
     font-weight: 600;
     margin-left: 18px;
     color: #212567;
+}
+
+@media (max-width: 768px) {
+    .input_icon{
+        font-size: 22px;
+    }
+    .option_container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .payment_option_container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+    }
 }
