@@ -1,0 +1,38 @@
+.service_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 20%;
+    text-align: center;
+}
+
+.card_img{
+    width: 90px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 14px;
+    color: #51535D;
+    font-weight: 700;
+    margin-top: -25px;
+}
+
+.description{
+    font-size: 14px;
+    color: #85868d;
+    font-weight: 600;
+    width: 83%;
+    margin: -15px auto;
+}
+
+.hr_bottom{
+    border: 0;
+    border-bottom: 2.5px solid #e5e6e8;;
+    width: 100%;
+    margin: 80px 0 40px 0;
+}
