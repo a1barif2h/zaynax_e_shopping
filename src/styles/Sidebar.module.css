@@ -3,20 +3,7 @@
     padding: 8px;
 }
 
-.filter_section,
-.category_section,
-.brand_section,
-.country_section,
-.size_section,
-.color_section,
-.discount_section,
-.price_section,
-.rating_section,
-.fabric_section,
-.pattern_section,
-.service_section,
-.clothing_section,
-.men_trend_section{
+.section{
     padding: 8px;
     border-bottom: 1px dashed #999999;
 }
@@ -89,36 +76,13 @@
 
 /* CATEGORY SECTION */
 
-.category_title_section,
-.brand_title_section,
-.country_title_section,
-.size_title_section,
-.color_title_section,
-.discount_title_section,
-.price_title_section,
-.fabric_title_section,
-.pattern_title_section,
-.service_title_section,
-.clothing_title_section,
-.men_trend_title_section,
-.fit_type_title_section{
+.title_section{
     display: flex;
     justify-content: space-between;
 }
 
-.category_icon,
-.brand_icon,
-.country_icon,
-.size_icon,
-.color_icon,
-.discount_icon,
-.price_icon,
-.fabric_icon,
-.pattern_icon,
-.service_icon,
-.clothing_icon,
-.men_trend_icon,
-.fit_type_icon{
+.icon,
+.price_icon{
     font-size: 32px;
     color: #585B5B;
     margin-top: -5px;
@@ -156,10 +120,7 @@
     color: #B5B5B5;
 }
 
-.brand_item,
-.country_item,
-.fabric_item,
-.pattern_item
+.option_item
 {
     padding: 15px;
     max-height: 356px;
@@ -169,53 +130,41 @@
 }
 
 .country_item{
+    padding: 15px;
     max-height: 168px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 10px;
 }
 
-.brand_item::-webkit-scrollbar,
-.country_item::-webkit-scrollbar,
-.fabric_item::-webkit-scrollbar,
-.pattern_item::-webkit-scrollbar{
+.option_item::-webkit-scrollbar,
+.country_item::-webkit-scrollbar{
     width: 10px;
 }
 
-.brand_item::-webkit-scrollbar-track,
-.country_item::-webkit-scrollbar-track,
-.fabric_item::-webkit-scrollbar-track,
-.pattern_item::-webkit-scrollbar-track {
+.option_item::-webkit-scrollbar-track,
+.country_item::-webkit-scrollbar-track {
     background-color: #f1f1f1;
     border-radius: 10px;
 }
 
-.brand_item::-webkit-scrollbar-thumb,
-.country_item::-webkit-scrollbar-thumb,
-.fabric_item::-webkit-scrollbar-thumb,
-.pattern_item::-webkit-scrollbar-thumb {
+.option_item::-webkit-scrollbar-thumb,
+.country_item::-webkit-scrollbar-thumb {
     background: #00B55B; 
     border-radius: 10px;
 }
 
-.brand_item::-webkit-scrollbar-thumb:hover,
-.country_item::-webkit-scrollbar-thumb:hover,
-.fabric_item::-webkit-scrollbar-thumb:hover,
-.pattern_item::-webkit-scrollbar-thumb:hover {
+.option_item::-webkit-scrollbar-thumb:hover,
+.option_item::-webkit-scrollbar-thumb:hover {
     background: #038846; 
 }
 
-.brand_list,
-.country_list,
-.discount_list,
-.fabric_list,
-.pattern_list,
-.service_list{
+.option_list{
     margin: 5px 0 5px 0;
     color: #818D94;
 }
 
-.brand_more,
-.country_more,
-.fabric_more,
-.pattern_more{
+.option_more{
     font-size: 20px;
     font-weight: 700;
     color: #00B55B;

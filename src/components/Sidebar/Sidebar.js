@@ -3,11 +3,12 @@ import { Card, Col, Form, FormControl, Navbar, Row } from 'react-bootstrap';
 import { FaSistrix, FaTimes } from 'react-icons/fa';
 import { BiChevronDown, BiChevronRight } from 'react-icons/bi';
 import {AiFillStar} from "react-icons/ai";
-import styles from "../styles/Sidebar.module.css";
-import { brandList } from '../fakeData/brandList';
-import { countryList } from '../fakeData/contreyList';
-import { fabricList } from '../fakeData/fabricList';
-import { patternList } from '../fakeData/patternList';
+import styles from "../../styles/Sidebar.module.css";
+import { brandList } from '../../fakeData/brandList';
+import { countryList } from '../../fakeData/contreyList';
+import { fabricList } from '../../fakeData/fabricList';
+import { patternList } from '../../fakeData/patternList';
+import RadioOptions from './RadioOptions';
 
 const Sidebar = () => {
     const allBrandList = brandList;
@@ -26,7 +27,8 @@ const Sidebar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Card className={styles.card_container}>
-                <div className={styles.filter_section}>
+                
+                <div className={styles.section}>
                     <h4 className={styles.title}>Filters</h4>
                     <div className={styles.out_of_stock}>
                         <p className={styles.filter_name}>Out of Stock</p>
@@ -44,10 +46,11 @@ const Sidebar = () => {
                         <p>Clear all</p>
                     </div>
                 </div>
-                <div className={styles.category_section}>
-                    <div className={styles.category_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Category</h4>
-                        <BiChevronDown className={styles.category_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                     <h4 className={styles.category_sub_title}>Men's Clothing</h4>
                     <div className={styles.category_sub_subject}>
@@ -55,64 +58,31 @@ const Sidebar = () => {
                         <p className={styles.last_child}>Shirts</p>
                     </div>
                 </div>
-                <div className={styles.brand_section}>
-                    <div className={styles.brand_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Brand</h4>
-                        <BiChevronDown className={styles.brand_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                     <Form inline>
                         <FormControl style={{width: "100%"}} type="text" placeholder="Search" className={` ${styles.search_box}`} />
                         <FaSistrix className={styles.search} />
                     </Form>
-                    <Form>
-                        <fieldset>
-                            <Form.Group as={Row}>
-                            <Col className={styles.brand_item} sm={10}>
-                                {
-                                    allBrandList.map(item => <Form.Check
-                                        key={item.id}
-                                        className={styles.brand_list}
-                                        type="radio"
-                                        label={item.title}
-                                        name="formHorizontalRadios"
-                                        id={`formHorizontalRadios${item.id}`}
-                                        />)
-                                }
-                            </Col>
-                            </Form.Group>
-                        </fieldset>
-                    </Form>
-                    <h4 className={styles.brand_more}>236 MORE</h4>
+                    <RadioOptions data={allBrandList} more={236} />
                 </div>
-                <div className={styles.country_section}>
-                    <div className={styles.country_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Country</h4>
-                        <BiChevronDown className={styles.country_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
-                    <Form>
-                        <fieldset>
-                            <Form.Group as={Row}>
-                            <Col className={styles.country_item} sm={10}>
-                                {
-                                    allCountryList.map(item => <Form.Check
-                                        key={item.id}
-                                        className={styles.country_list}
-                                        type="radio"
-                                        label={item.title}
-                                        name="forCountry"
-                                        id={`forCountry${item.id}`}
-                                        />)
-                                }
-                            </Col>
-                            </Form.Group>
-                        </fieldset>
-                    </Form>
-                    <h4 className={styles.country_more}>2 MORE</h4>
+                    <RadioOptions data={allCountryList} more={2} />
                 </div>
-                <div className={styles.size_section}>
-                    <div className={styles.size_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Size</h4>
-                        <BiChevronDown className={styles.size_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                     <div className={styles.size_items}>
                         <div className={styles.size_list}>
@@ -135,10 +105,11 @@ const Sidebar = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.color_section}>
-                    <div className={styles.color_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Color</h4>
-                        <BiChevronDown className={styles.color_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                     <div className={styles.color_items}>
                         <div className={styles.color_list}>
@@ -161,10 +132,11 @@ const Sidebar = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.discount_section}>
-                    <div className={styles.discount_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Discount</h4>
-                        <BiChevronDown className={styles.discount_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                     <Form>
                         <fieldset>
@@ -196,8 +168,9 @@ const Sidebar = () => {
                         </fieldset>
                     </Form>
                 </div>
-                <div className={styles.price_section}>
-                    <div className={styles.price_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Price</h4>
                     </div>
                     <div className={styles.price_items_container}>
@@ -217,8 +190,9 @@ const Sidebar = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.rating_section}>
-                    <div className={styles.rating_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Rating</h4>
                     </div>
                     <Form>
@@ -265,60 +239,27 @@ const Sidebar = () => {
                         </fieldset>
                     </Form>
                 </div>
-                <div className={styles.fabric_section}>
-                    <div className={styles.fabric_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Fabric</h4>
-                        <BiChevronDown className={styles.fabric_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
-                    <Form>
-                        <fieldset>
-                            <Form.Group as={Row}>
-                            <Col className={styles.fabric_item} sm={10}>
-                                {
-                                    allFabricList.map(item => <Form.Check
-                                        key={item.id}
-                                        className={styles.fabric_list}
-                                        type="radio"
-                                        label={item.title}
-                                        name="forFabric"
-                                        id={`forFabric${item.id}`}
-                                        />)
-                                }
-                            </Col>
-                            </Form.Group>
-                        </fieldset>
-                    </Form>
-                    <h4 className={styles.fabric_more}>5 MORE</h4>
+                    <RadioOptions data={allFabricList} more={5} />
                 </div>
-                <div className={styles.pattern_section}>
-                    <div className={styles.pattern_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Pattern</h4>
-                        <BiChevronDown className={styles.pattern_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
-                    <Form>
-                        <fieldset>
-                            <Form.Group as={Row}>
-                            <Col className={styles.pattern_item} sm={10}>
-                                {
-                                    allPatternList.map(item => <Form.Check
-                                        key={item.id}
-                                        className={styles.pattern_list}
-                                        type="radio"
-                                        label={item.title}
-                                        name="forPattern"
-                                        id={`forPattern${item.id}`}
-                                        />)
-                                }
-                            </Col>
-                            </Form.Group>
-                        </fieldset>
-                    </Form>
-                    <h4 className={styles.pattern_more}>26 MORE</h4>
+                    <RadioOptions data={allPatternList} more={26} />
                 </div>
-                <div className={styles.service_section}>
-                    <div className={styles.service_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Service</h4>
-                        <BiChevronDown className={styles.service_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                     <Form>
                         <fieldset>
@@ -343,24 +284,28 @@ const Sidebar = () => {
                         </fieldset>
                     </Form>
                 </div>
-                <div className={styles.clothing_section}>
-                    <div className={styles.clothing_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Clothing</h4>
-                        <BiChevronDown className={styles.clothing_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                 </div>
-                <div className={styles.men_trend_section}>
-                    <div className={styles.men_trend_title_section}>
+                
+                <div className={styles.section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Men's Trend</h4>
-                        <BiChevronDown className={styles.men_trend_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                 </div>
+                
                 <div className={styles.fit_type_section}>
-                    <div className={styles.fit_type_title_section}>
+                    <div className={styles.title_section}>
                         <h4 className={styles.title}>Fit Type</h4>
-                        <BiChevronDown className={styles.fit_type_icon} />
+                        <BiChevronDown className={styles.icon} />
                     </div>
                 </div>
+            
             </Card>
             </Navbar.Collapse>
             </Navbar>

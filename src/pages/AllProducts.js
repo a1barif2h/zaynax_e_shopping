@@ -4,7 +4,7 @@ import Blog from '../components/Blog/Blog';
 import Paginate from '../components/Paginate';
 import SearchNavbar from '../components/SearchNavbar';
 import Services from '../components/services/Services';
-import Sidebar from '../components/Sidebar';
+import Sidebar from '../components/Sidebar/Sidebar';
 
 const AllProducts = () => {
     return (
