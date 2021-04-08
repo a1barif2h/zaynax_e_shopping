@@ -44,28 +44,3 @@
     font-size: 14px;
     margin-top: -12px;
 }
-
-
-.paginationBtn{
-    width: 80%;
-    height: 40px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-}
-
-.paginationBtn a{
-    padding: 10px;
-    margin: 8px;
-    border-radius: 5px;
-    border: 1px solid #2b2eff;
-    color: #2b2eff;
-    cursor: pointer;
-}
-
-.paginationBtn a:hover,
-.paginationActive a{
-    color: #fff;
-    background-color: #2b2eff;
-}

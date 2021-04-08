@@ -3,7 +3,8 @@ import { useState } from 'react';
 import { Col } from 'react-bootstrap';
 import ReactPaginate from 'react-paginate';
 import { fakeAllProductsList } from '../fakeData/fakeAllProductsList';
-import styles from "../styles/ProductsCart.module.css"
+// import styles from "../styles/ProductsCart.module.css"
+import "../styles/Paginate.css"
 import ProductCard from './ProductCard';
 
 const Paginate = () => {
@@ -26,17 +27,19 @@ const Paginate = () => {
     return (
         <>
             {allProducts && handlePaginate(allProducts)}
-            <ReactPaginate
-            previousLabel={"Previous"}
-            nextLabel={"Next"}
-            pageCount={pageCount}
-            onPageChange={changePage}
-            containerClassName={styles.paginationBtn}
-            previousLinkClassName={styles.previousBtn}
-            nextLinkClassName={styles.nextBtn}
-            disabledClassName={styles.paginationDisabled}
-            activeClassName={styles.paginationActive}
-            />
+            <div className="paginate_container">
+                <ReactPaginate
+                    previousLabel={"Previous"}
+                    nextLabel={"Next"}
+                    pageCount={pageCount}
+                    onPageChange={changePage}
+                    containerClassName="paginationBtn"
+                    previousLinkClassName="previousBtn"
+                    nextLinkClassName="nextBtn"
+                    disabledClassName="paginationDisabled"
+                    activeClassName="paginationActive"
+                />
+            </div>
         </>
     );
 };
