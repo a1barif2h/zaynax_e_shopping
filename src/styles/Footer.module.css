@@ -1,0 +1,102 @@
+.hr_bottom{
+    border: 0;
+    border-bottom: 2.5px solid #e5e6e8;;
+    width: 100%;
+    margin: 80px 0 40px 0;
+}
+
+.footer_section{
+    margin-bottom: 50px;
+}
+
+.social_section{
+    font-size: 32px;
+    text-align: center;
+    color: #CBCBCB;
+    cursor: pointer;
+}
+
+.banner_section{
+    width: 100%;
+    text-align: center;
+}
+
+.banner_img{
+    width: 100%;
+}
+
+.subscribe_section{
+    width: 100%;
+}
+
+.subscribe_input{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.sub_title,
+.sub_description,
+.contact_title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B2B2B;
+}
+
+.sub_description{
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.sub_input,
+.sub_input:focus,
+.sub_input:active{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    border-bottom: 1px solid #2B2B2B;
+    position: relative;
+    color: #848588;
+}
+
+.input_icon{
+    font-size: 28px;
+    position: absolute;
+    right: 72px;
+    bottom: 115px;
+}
+
+.option_container{
+    font-size: 15px;
+    color: #303436;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.payment_option_container{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.contact_title{
+    margin-bottom: -5px;
+    margin-top: 50px;
+}
+
+.hotline{
+    font-size: 14;
+    font-weight: 700;
+    margin-bottom: -4px;
+}
+
+.hotline_num{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 18px;
+    color: #212567;
+}

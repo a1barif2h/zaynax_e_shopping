@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePages from "./pages/HomePages";
 import AllProducts from "./pages/AllProducts";
 import TabNavbar from "./components/TabNavbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path='/' component={HomePages} />
         <Route exact path='/all/products' component={AllProducts} />
       </Switch>
+      <Footer />
     </Router>
     </>
   );

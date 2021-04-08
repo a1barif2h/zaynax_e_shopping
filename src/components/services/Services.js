@@ -14,7 +14,6 @@ const Services = () => {
                         )
                     }
             </div>
-            <hr className={styles.hr_bottom}/>
         </>
     );
 };
